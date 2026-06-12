@@ -7,6 +7,6 @@ resource "aws_instance" "existing_instance" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "JUMP Svr"
+    Name = "tf-managed-instance"
   }
 }
